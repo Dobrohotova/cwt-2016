@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.box1 {
+	width: 300px;
+	height: 300px;
+	background: black;
+	
+	position: relative;
+	bottom: 0px;
+}
+
+.box2 {
+	width: 500px;
+	height: 500px;
+	background: #8e4854;
+	margin: 100px;
+	position: relative;
+}
+
+	.box2 .box3 {
+		width: 200px;
+		height: 200px;
+		background: #b5a929;
+
+		position: absolute;
+		bottom: 0;
+	}
+
+.box4 {
+	width: 100%;
+	height: 80px;
+	background: #82b572;
+	position: fixed;
+	box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
+}
